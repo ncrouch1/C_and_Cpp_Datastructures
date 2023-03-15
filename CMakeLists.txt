@@ -3,4 +3,4 @@ project(C_C__Datastructures)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(C_C__Datastructures main.cpp Stack.h Queue.h main.c)
+add_executable(C_C__Datastructures CppDataStructures/main.cpp C-DataStructures/Stack.h C-DataStructures/Queue.h C-DataStructures/main.c CppDataStructures/Queue.h CppDataStructures/LinkedList.h)
